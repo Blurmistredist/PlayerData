@@ -32,7 +32,10 @@ DATA HANDLING
 Only public player-directory fields needed for the Players experience were included. Account password hashes, claim/session credentials, application search records, and website activity records were not copied into the site package.
 
 3D Minecraft skin viewer
-- Player profiles use skinview3d (https://github.com/bs-community/skinview3d), loaded from jsDelivr CDN at version 3.4.2.
+- Player profiles use MinecraftCapes/minecraft-skin-viewer (https://github.com/MinecraftCapes/minecraft-skin-viewer), loaded as an ES module from esm.sh. It supports classic/slim skins and cape textures.
 - The viewer supports drag rotation, auto-rotation, zoom, and an idle animation. It needs an internet connection to load the library and WebGL support in the browser.
-- All profile image/skin/cape/badge asset paths are normalized to ./manus-storage/ when data is loaded, saved, or imported.
-- skinview3d is MIT-licensed; see https://github.com/bs-community/skinview3d/blob/master/LICENSE.
+- Profile image/skin/cape/badge paths are normalized to ./manus-storage/. Global cape texture paths are stored on each cape collectible and shared by all players. The title season choice is stored in siteSettings.titleSeason.
+- Add the three title image files as manus-storage/title/season1.png, season2.png and season3.png. The selected title image is season3.png by default.
+- Add the cape texture PNGs under manus-storage/capes-textures/ and set each global cape texture path in the editor.
+- MinecraftCapes/minecraft-skin-viewer is MIT-licensed; see https://github.com/MinecraftCapes/minecraft-skin-viewer/blob/main/LICENSE.
+- The previous package did not contain season1.png, season2.png, season3.png or the cape texture PNGs. Add those image files to the folders above for the title and cape previews to render.
