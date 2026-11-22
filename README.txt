@@ -46,3 +46,12 @@ Latest update:
 - Removed the large white Smp Contributor heading while keeping the small section label.
 - Removed the 'Preview on skin' caption from cape tiles.
 - Adjusted the MinecraftCapes viewer Elytra position closer to the player's back.
+
+
+VISITOR DATA REFRESH + EDITOR EXPORT SAFETY
+- Visitors always load ./players-data.json from the published site using a no-store request and a fresh query parameter. Visitor player data is not read from or written to localStorage.
+- The editor keeps its working draft only on the editor's device.
+- If an editor draft exists, unlocking the editor asks whether to restore it or start from the latest published players-data.json.
+- After editing, use Export and keep the downloaded file named players-data.json. Replace the repository's existing players-data.json with this file and commit/push it.
+- The editor shows a prominent export-required warning while there are unpublished edits. It will not turn off editor mode until the data has been exported. The browser also warns before leaving the page with unexported changes.
+- Exporting only downloads a file; it does not publish to GitHub automatically.
