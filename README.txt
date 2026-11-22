@@ -30,3 +30,9 @@ The package recreates the Players directory, Realm Team cards, accepted-player s
 
 DATA HANDLING
 Only public player-directory fields needed for the Players experience were included. Account password hashes, claim/session credentials, application search records, and website activity records were not copied into the site package.
+
+3D Minecraft skin viewer
+- Player profiles use skinview3d (https://github.com/bs-community/skinview3d), loaded from jsDelivr CDN at version 3.4.2.
+- The viewer supports drag rotation, auto-rotation, zoom, and an idle animation. It needs an internet connection to load the library and WebGL support in the browser.
+- All profile image/skin/cape/badge asset paths are normalized to ./manus-storage/ when data is loaded, saved, or imported.
+- skinview3d is MIT-licensed; see https://github.com/bs-community/skinview3d/blob/master/LICENSE.
