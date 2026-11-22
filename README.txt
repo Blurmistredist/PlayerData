@@ -39,3 +39,10 @@ Only public player-directory fields needed for the Players experience were inclu
 - Add the cape texture PNGs under manus-storage/capes-textures/ and set each global cape texture path in the editor.
 - MinecraftCapes/minecraft-skin-viewer is MIT-licensed; see https://github.com/MinecraftCapes/minecraft-skin-viewer/blob/main/LICENSE.
 - The previous package did not contain season1.png, season2.png, season3.png or the cape texture PNGs. Add those image files to the folders above for the title and cape previews to render.
+
+
+Latest update:
+- Added Change password control inside the unlocked Players & Badges Settings panel. It verifies the current password, then confirms a new password (minimum 6 characters). This browser-only password remains a convenience lock, not secure server authentication.
+- Removed the large white Smp Contributor heading while keeping the small section label.
+- Removed the 'Preview on skin' caption from cape tiles.
+- Adjusted the MinecraftCapes viewer Elytra position closer to the player's back.
