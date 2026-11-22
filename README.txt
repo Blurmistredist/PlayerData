@@ -14,14 +14,14 @@ PUBLISH TO GITHUB PAGES
 6. Open the Pages URL after deployment finishes.
 
 OWNER MODE SETUP
-1. Open index.html in a text editor before uploading.
-2. Find: const OWNER_PASSWORD = "CHANGE-THIS-OWNER-PASSWORD";
-3. Replace the placeholder with a password of your choice.
-4. Upload the changed index.html.
-5. On the site, choose Owner Mode and enter that password.
+1. Upload the files to GitHub Pages and open your published Players page.
+2. Click Owner Mode.
+3. On the first visit in that browser, it will ask you to create a password and confirm it.
+4. After setup, click Owner Mode and enter that password whenever you want to unlock the editor.
+5. The password is stored in that browser's local storage. If you clear site data or switch browsers/devices, you will need to set it up again.
 
 IMPORTANT SECURITY / PUBLISHING LIMITS
-This is a static GitHub Pages site. The owner password is embedded in downloadable client-side JavaScript, so it is only a convenience lock and cannot securely restrict access to a determined visitor. Do not put secrets or private information in it. For genuine owner-only authentication and shared edits that instantly update every visitor's view, the site needs a private server/API or another authenticated backend.
+This is a static GitHub Pages site. The password is stored in local storage and the check runs in client-side JavaScript. This is only a convenience lock and cannot securely restrict access to a determined visitor. Do not put secrets or private information in the static site. For genuine owner-only authentication and shared edits that instantly update every visitor's view, the site needs a private server/API or another authenticated backend.
 
 Edits made in Owner Mode are saved in that browser's local storage. They do not automatically change the public JSON file for other visitors. Use Export data to download homelife-players-data.json. To publish those changes, replace the repository's players-data.json with the downloaded file and commit/push it. Import data can restore a previously exported JSON file. Reset restores the original data shipped in this package.
 
