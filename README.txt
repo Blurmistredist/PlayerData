@@ -1,27 +1,24 @@
-REAWAKENING PLAYER DATA
+REAWAKENING PLAYER DATA — FEATURE UPDATE
 
-This is a static GitHub Pages website. Upload the contents of this folder to the same repository location as your existing site files.
+CONTENTS
+- index.html: website, particle/background/music controls, highlight display and editors
+- players-data.json: public player/contributor/badge/cape data
+- manus-storage/: existing website images and assets
 
-FEATURES IN THIS BUILD
-- Smp Contributor profiles use a Discord-inspired banner layout with the avatar overlapping the lower-left edge of the banner and a separate nameplate below it.
-- Contributor profile tabs contain STATUS, the selected status value (Ongoing or Stopped associating since YYYY-MM-DD), About, Badges, and Social links.
-- Optional contributor status words are displayed separately under STATUS WORDS.
-- Contributor name, nameplate, and profile-tab colours each support solid colour or a two-colour gradient, with a direction selector and live preview in the editor.
-- Contributor banner paths use manus-storage/distributor-banner/.
-- Ordinary player cards stay in one directory grid. In All view, online/playing/away players sort above offline players. Search filters include All, Online only, and Offline only.
-- Offline ordinary player cards retain their faded/darker appearance.
+NEW FEATURES
+- Badge Legend is collapsible.
+- Online accepted players are sorted by awarded badge count (highest first); offline players remain below all online players. Existing online/offline filters still apply. All players remain in the same grid.
+- Ambient floating pixel particles with controls for count, speed, spread, glow colour, pixel colour and variable size.
+- Background base colour, ambient glow colour and glow intensity controls.
+- Music controls in the header: play/pause and next track. Add audio files to manus-storage/Playlist/ and enter their paths in Music & Playlist Editor. Browsers may block autoplay until the visitor interacts; the play button is always available.
+- Highlights section appears at the bottom only when at least one highlight is saved. Upload images to manus-storage/highlight-image/ and enter the path in Highlight Editor. The JSON stores only title, description and image path; image files remain in GitHub.
+- New settings are saved in the website data JSON and should be exported after editing.
 
-PLAYER DATA PUBLISHING
-1. Unlock Players & Badges Settings.
-2. Make your edits.
-3. Export/download the player JSON from the editor.
-4. Replace players-data.json in this GitHub repository with the exported JSON file.
-5. Commit and push. Visitors will load the published JSON.
+PUBLISHING
+1. Extract the ZIP and upload/replace the repository contents, keeping manus-storage/ paths intact.
+2. In editor mode, make changes and export players-data.json.
+3. Replace the repository's players-data.json with the exported file and commit/push.
+4. Upload any new images/audio files into their specified manus-storage/ folders and commit/push those files too.
 
-The editor's working data is browser-local until exported and uploaded. The shared password in index.html is a convenience lock only; static GitHub Pages cannot provide secure authentication.
-
-ASSETS
-Keep the manus-storage folder alongside index.html and players-data.json. Use exact relative paths, for example:
-manus-storage/distributor-banner/example.png
-manus-storage/capes-textures/example.png
-manus-storage/title/season3.png
+NOTES
+This is a static GitHub Pages site. Audio autoplay depends on browser permission/user interaction. The owner password is client-side and is only a convenience lock, not secure authentication.
