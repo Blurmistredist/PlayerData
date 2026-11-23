@@ -50,3 +50,12 @@ Latest update:
 
 EDITOR PASSWORD
 The shared editor password is set in index.html in the OWNER_PASSWORD constant. To change it for everyone, edit that constant and redeploy the updated index.html. After five incorrect attempts, the login prompt shows the configured hint. This is only a convenience barrier: because this is a static GitHub Pages site, the password can be discovered by inspecting the HTML/JavaScript source. Do not use it to protect sensitive information.
+
+SMP CONTRIBUTOR PROFILE CUSTOMIZATION
+- Smp Contributors have a separate profile layout from ordinary players.
+- Contributor profiles show a banner, biography, contributor status, and badges only.
+- Cape collection, player roles, Minecraft skin viewer, and social links are not shown on contributor profiles.
+- Banner files belong in manus-storage/distributor-banner/; set each contributor's banner path in the editor.
+- Each contributor can have an individual name font, name colour or gradient, nameplate colour or gradient, and profile panel/section colours.
+- Contributor status can be Ongoing or Stopped associating with a specified date.
+- Ordinary player profiles can be hidden from the public directory using the visibility checkbox. Ordinary players with Offline status are automatically dimmed and darkened in the directory and profile header.
