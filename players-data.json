@@ -13,32 +13,60 @@
       "skinImageUrl": "./manus-storage/player-skins/1789726993200-1000318985_1430017b.png",
       "skinModel": "normal",
       "clockOffsetHours": -4,
-      "badges": [],
+      "badges": [
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [
         {
           "id": 30001,
-          "playerId": 30001,
           "label": "YouTube",
           "url": "https://youtube.com/@thedragondueler?si=K3oqDYT43zq4Yn3a",
-          "iconUrl": null,
-          "sortOrder": 1000,
-          "updatedAt": "2026-08-23T16:55:05.000Z",
-          "updatedBy": "password-gated-owner"
+          "sortOrder": 1000
         },
         {
           "id": 60001,
-          "playerId": 30001,
           "label": "Twitch",
           "url": "https://m.twitch.tv/thedragonduelar/home",
-          "iconUrl": "/manus-storage/player-social-icons/1787504664263-1000638097_45352f94.png",
-          "sortOrder": 1000,
-          "updatedAt": "2026-08-23T17:04:24.000Z",
-          "updatedBy": "password-gated-owner"
+          "sortOrder": 1000
         }
       ],
       "suspended": false,
-      "isPublicProfile": true
+      "isPublicProfile": true,
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 60001,
@@ -83,7 +111,68 @@
       "skinImageUrl": "./manus-storage/player-skins/1789727083355-1000646852_9abf21aa.png",
       "skinModel": "slim",
       "clockOffsetHours": 7,
-      "badges": [],
+      "badges": [
+        {
+          "id": 4,
+          "slug": "explorer",
+          "name": "Explorer",
+          "legend": "Earned by extensively exploring Minecraft biomes.",
+          "imageUrl": "./manus-storage/badges-icon/Flee.png",
+          "sortOrder": 40,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:04.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 7,
+          "slug": "Master",
+          "name": "Master Builder",
+          "legend": "Awarded to players who have created a notable structure based on size",
+          "imageUrl": "./manus-storage/badges-icon/Radiance.png",
+          "sortOrder": 70,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:57:08.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Building",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [
         {
           "id": 2,
@@ -318,7 +407,23 @@
       "suspended": false,
       "isPublicProfile": true,
       "defaultCapeSlug": "hero-cape",
-      "discordConnectionStatus": "Not connected / not provided"
+      "discordConnectionStatus": "Not connected / not provided",
+      "contributorStyle": false,
+      "bannerUrl": "./manus-storage/distributor-banner/The Cast of Brez SMP Reawakening.png.jpg",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 150001,
@@ -333,22 +438,7 @@
       "skinImageUrl": "./manus-storage/player-skins/1789726869139-1000637288_b0a2bf07.png",
       "skinModel": "normal",
       "clockOffsetHours": 12,
-      "badges": [
-        {
-          "id": 6,
-          "slug": "dedication",
-          "name": "Dedication",
-          "legend": "Awarded to players who are frequently active in the Realm.",
-          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
-          "sortOrder": 60,
-          "createdAt": "2026-08-23T11:38:21.000Z",
-          "updatedAt": "2026-09-18T18:55:21.000Z",
-          "updatedBy": "password-gated-owner",
-          "category": "Progression",
-          "systemKey": null,
-          "featureKey": "none"
-        }
-      ],
+      "badges": [],
       "capes": [
         {
           "id": 2,
@@ -442,29 +532,37 @@
       "links": [
         {
           "id": 240001,
-          "playerId": 150001,
           "label": "Tik tok",
           "url": "https://www.tiktok.com/@thatminecraftegg?_r=1&_t=ZS-99ObjGhijwt",
-          "iconUrl": null,
-          "sortOrder": 1000,
-          "updatedAt": "2026-09-02T11:40:02.000Z",
-          "updatedBy": "player-account"
+          "sortOrder": 1000
         },
         {
           "id": 240002,
-          "playerId": 150001,
           "label": "Tumblr",
           "url": "https://www.tumblr.com/eggsinabasth",
-          "iconUrl": null,
-          "sortOrder": 1000,
-          "updatedAt": "2026-09-02T11:40:43.000Z",
-          "updatedBy": "player-account"
+          "sortOrder": 1000
         }
       ],
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": "tiktok"
+      "defaultCapeSlug": "tiktok",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 180001,
@@ -479,7 +577,54 @@
       "skinImageUrl": "./manus-storage/player-skins/1789726864279-1000198043_3db8a3a7.png",
       "skinModel": "normal",
       "clockOffsetHours": -4,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 7,
+          "slug": "Master",
+          "name": "Master Builder",
+          "legend": "Awarded to players who have created a notable structure based on size",
+          "imageUrl": "./manus-storage/badges-icon/Radiance.png",
+          "sortOrder": 70,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:57:08.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Building",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [
         {
           "id": 2,
@@ -628,7 +773,23 @@
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": "builder"
+      "defaultCapeSlug": "builder",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 240001,
@@ -645,6 +806,17 @@
       "clockOffsetHours": 8,
       "badges": [],
       "capes": [
+        {
+          "id": 2,
+          "slug": "builder",
+          "name": "Builder Cape",
+          "imageUrl": "./manus-storage/player-capes/1789756867429-1000684074_56b29252.webp",
+          "sortOrder": 2,
+          "createdAt": "2026-09-15T13:10:09.000Z",
+          "updatedAt": "2026-09-18T18:41:07.000Z",
+          "updatedBy": "password-gated-owner",
+          "textureUrl": "manus-storage/capes-textures/builder.png"
+        },
         {
           "id": 6,
           "slug": "pan",
@@ -696,7 +868,23 @@
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "menace",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078",
+      "nameGradient": false,
+      "nameplateGradient": false,
+      "profileGradient": false
     },
     {
       "id": 270001,
@@ -711,7 +899,40 @@
       "skinImageUrl": "./manus-storage/player-skins/1789727165441-1000683977_40476edf.png",
       "skinModel": "normal",
       "clockOffsetHours": 4,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [
         {
           "id": 2,
@@ -849,7 +1070,23 @@
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": "home"
+      "defaultCapeSlug": "home",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 330001,
@@ -1103,7 +1340,40 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1733149668251.png",
       "skinModel": "slim",
       "clockOffsetHours": -4,
-      "badges": [],
+      "badges": [
+        {
+          "id": 4,
+          "slug": "explorer",
+          "name": "Explorer",
+          "legend": "Earned by extensively exploring Minecraft biomes.",
+          "imageUrl": "./manus-storage/badges-icon/Flee.png",
+          "sortOrder": 40,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:04.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [
         {
           "id": 2,
@@ -1219,19 +1489,31 @@
       "links": [
         {
           "id": 240003,
-          "playerId": 450002,
           "label": "YouTube",
           "url": "https://youtube.com/@starredragon1?si=qv-1W5QlX6IBsRg9",
-          "iconUrl": null,
-          "sortOrder": 1,
-          "updatedAt": "2026-10-13T18:52:32.000Z",
-          "updatedBy": "player-account"
+          "sortOrder": 1000
         }
       ],
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": "aurora-cape"
+      "defaultCapeSlug": "aurora-cape",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450003,
@@ -1334,7 +1616,22 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1795367154581.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        }
+      ],
       "capes": [
         {
           "id": 1,
@@ -1462,7 +1759,23 @@
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": "cape-1000638129"
+      "defaultCapeSlug": "cape-1000638129",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450006,
@@ -1477,7 +1790,22 @@
       "skinImageUrl": "./manus-storage/player-skins/2535473021718660_skin.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        }
+      ],
       "capes": [
         {
           "id": 6,
@@ -1516,7 +1844,23 @@
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": "cherry"
+      "defaultCapeSlug": "cherry",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450007,
@@ -1563,7 +1907,86 @@
       "skinImageUrl": "./manus-storage/player-skins/skin1.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 4,
+          "slug": "explorer",
+          "name": "Explorer",
+          "legend": "Earned by extensively exploring Minecraft biomes.",
+          "imageUrl": "./manus-storage/badges-icon/Flee.png",
+          "sortOrder": 40,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:04.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 7,
+          "slug": "Master",
+          "name": "Master Builder",
+          "legend": "Awarded to players who have created a notable structure based on size",
+          "imageUrl": "./manus-storage/badges-icon/Radiance.png",
+          "sortOrder": 70,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:57:08.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Building",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30004,
+          "slug": "boss-killer",
+          "name": "Boss Killer!",
+          "legend": "At least kill one boss yourself and without a team",
+          "imageUrl": "./manus-storage/badges-icon/Critical_Hit (1).png",
+          "category": "Combat",
+          "sortOrder": 960
+        },
+        {
+          "id": 30008,
+          "slug": "social-pillar",
+          "name": "Social Pillar",
+          "legend": "Awarded to the players who have made something that benefits other players in the realm",
+          "imageUrl": "./manus-storage/badges-icon/Emerald_Shield (1).png",
+          "category": "Building",
+          "sortOrder": 1000
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [
         {
           "id": 2,
@@ -1668,7 +2091,23 @@
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": "pan"
+      "defaultCapeSlug": "pan",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450009,
@@ -1683,32 +2122,102 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1795502002526.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450010,
       "gamertag": "AaronLol4082",
       "profileImageUrl": "./manus-storage/player-profiles/avatarHead (29).png",
       "statusTone": "offline",
-      "statusLabel": "Offline",
+      "statusLabel": "Is now 'AnxiouslyAnxy'",
       "nameplateVariant": "",
       "avatarDecoration": "",
       "profileEffect": "",
-      "bio": "",
+      "bio": "This Account was lost. ",
       "skinImageUrl": "./manus-storage/player-skins/2535406610231667_skin.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450011,
@@ -1723,12 +2232,47 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1795502009130.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450012,
@@ -1743,32 +2287,112 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1795501621298.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450013,
       "gamertag": "NeoM4niac",
       "profileImageUrl": "./manus-storage/player-profiles/avatarHead (25).png",
       "statusTone": "offline",
-      "statusLabel": "Offline",
+      "statusLabel": "Huss Huss Huss",
       "nameplateVariant": "",
       "avatarDecoration": "",
       "profileEffect": "",
-      "bio": "",
+      "bio": "While they're out partying btw",
       "skinImageUrl": "./manus-storage/player-skins/cd30f5c202f6649c.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450014,
@@ -1783,7 +2407,54 @@
       "skinImageUrl": "./manus-storage/player-skins/2535452984207916_skin.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 4,
+          "slug": "explorer",
+          "name": "Explorer",
+          "legend": "Earned by extensively exploring Minecraft biomes.",
+          "imageUrl": "./manus-storage/badges-icon/Flee.png",
+          "sortOrder": 40,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:04.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [
         {
           "id": 5,
@@ -1823,7 +2494,23 @@
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450015,
@@ -1838,12 +2525,47 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1795501643488.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450016,
@@ -1858,12 +2580,61 @@
       "skinImageUrl": "./manus-storage/player-skins/SkinseedSkin_1795501424472.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 4,
+          "slug": "explorer",
+          "name": "Explorer",
+          "legend": "Earned by extensively exploring Minecraft biomes.",
+          "imageUrl": "./manus-storage/badges-icon/Flee.png",
+          "sortOrder": 40,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:04.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450017,
@@ -1878,12 +2649,129 @@
       "skinImageUrl": "./manus-storage/player-skins/6ea82f8f6f3b69c8.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
       "capes": [],
       "links": [],
       "suspended": false,
       "isPublicProfile": true,
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
+    },
+    {
+      "id": 450018,
+      "gamertag": "AnxiouslyAnxy",
+      "profileImageUrl": "./manus-storage/player-profiles/avatarHead (32).png",
+      "statusTone": "offline",
+      "statusLabel": "What does this mean? ",
+      "nameplateVariant": "",
+      "avatarDecoration": "",
+      "profileEffect": "",
+      "bio": "WHAT DOES THIS MEAN? ",
+      "skinImageUrl": "./manus-storage/player-skins/pmcskin3d-steve-19253434.png",
+      "skinModel": "normal",
+      "clockOffsetHours": 0,
+      "badges": [
+        {
+          "id": 4,
+          "slug": "explorer",
+          "name": "Explorer",
+          "legend": "Earned by extensively exploring Minecraft biomes.",
+          "imageUrl": "./manus-storage/badges-icon/Flee.png",
+          "sortOrder": 40,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:04.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30007,
+          "slug": "exotic-zookeeper",
+          "name": "Exotic Zookeeper",
+          "legend": "Keep a hostile mob as a pet in your base",
+          "imageUrl": "./manus-storage/badges-icon/Beast_Boss.png",
+          "category": "Progression",
+          "sortOrder": 990
+        },
+        {
+          "id": 30009,
+          "slug": "content-town",
+          "name": "Content Town!",
+          "legend": "Participate in Season 1 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Ricochet.png",
+          "category": "Seasons",
+          "sortOrder": 1010
+        },
+        {
+          "id": 30010,
+          "slug": "anti-content-town",
+          "name": "Anti Content Town!",
+          "legend": "Participate in Season 2 of Brez Smp Reawakening! ",
+          "imageUrl": "./manus-storage/badges-icon/Deflect.png",
+          "category": "Seasons",
+          "sortOrder": 1020
+        }
+      ],
+      "capes": [
+        {
+          "id": 6,
+          "slug": "pan",
+          "name": "Pan Cape",
+          "imageUrl": "./manus-storage/player-capes/1789756896311-1000684070_f510f8b5.webp",
+          "sortOrder": 6,
+          "createdAt": "2026-09-15T13:10:09.000Z",
+          "updatedAt": "2026-09-18T18:41:36.000Z",
+          "updatedBy": "password-gated-owner",
+          "textureUrl": "manus-storage/capes-textures/pan.png"
+        }
+      ],
+      "links": [],
+      "suspended": false,
+      "isPublicProfile": true,
+      "discordConnectionStatus": "Not connected / not provided",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078",
+      "nameGradient": false,
+      "nameplateGradient": false,
+      "profileGradient": false,
+      "defaultCapeSlug": "pan"
     }
   ],
   "team": [
