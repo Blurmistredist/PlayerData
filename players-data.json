@@ -423,7 +423,10 @@
       "profileGradientDirection": "135deg",
       "profileColor2": "#172b48",
       "sectionColor": "#0d202e",
-      "borderColor": "#3d6078"
+      "borderColor": "#3d6078",
+      "bannerFocusX": 50,
+      "bannerFocusY": 74.6,
+      "bannerZoom": 1
     },
     {
       "id": 150001,
@@ -1524,11 +1527,44 @@
       "nameplateVariant": "",
       "avatarDecoration": "",
       "profileEffect": "",
-      "bio": "Your mom",
+      "bio": "Every server has at least one furry! ",
       "skinImageUrl": "./manus-storage/player-skins/1959f561b66505479c5fbc3ef2bc06befa6c1eb6.png",
       "skinModel": "normal",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30006,
+          "slug": "parry",
+          "name": "+Parry! ",
+          "legend": "Get 'Return To Sender' Achievement\n(Video proof) ",
+          "imageUrl": "./manus-storage/badges-icon/Punch.png",
+          "category": "Combat",
+          "sortOrder": 980
+        },
+        {
+          "id": 30008,
+          "slug": "social-pillar",
+          "name": "Social Pillar",
+          "legend": "Awarded to the players who have made something that benefits other players in the realm",
+          "imageUrl": "./manus-storage/badges-icon/Emerald_Shield (1).png",
+          "category": "Building",
+          "sortOrder": 1000
+        }
+      ],
       "capes": [
         {
           "id": 6,
@@ -1557,7 +1593,26 @@
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": "pan"
+      "defaultCapeSlug": "pan",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078",
+      "bannerFocusX": 50,
+      "bannerFocusY": 50,
+      "bannerZoom": 1
     },
     {
       "id": 450004,
@@ -1572,7 +1627,49 @@
       "skinImageUrl": "./manus-storage/player-skins/2cb43bc9297f332956ad74cb958835328248c25b-1.png",
       "skinModel": "slim",
       "clockOffsetHours": 0,
-      "badges": [],
+      "badges": [
+        {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 30004,
+          "slug": "boss-killer",
+          "name": "Boss Killer!",
+          "legend": "At least kill one boss yourself and without a team",
+          "imageUrl": "./manus-storage/badges-icon/Critical_Hit (1).png",
+          "category": "Combat",
+          "sortOrder": 960
+        },
+        {
+          "id": 30006,
+          "slug": "parry",
+          "name": "+Parry! ",
+          "legend": "Get 'Return To Sender' Achievement\n(Video proof) ",
+          "imageUrl": "./manus-storage/badges-icon/Punch.png",
+          "category": "Combat",
+          "sortOrder": 980
+        },
+        {
+          "id": 30008,
+          "slug": "social-pillar",
+          "name": "Social Pillar",
+          "legend": "Awarded to the players who have made something that benefits other players in the realm",
+          "imageUrl": "./manus-storage/badges-icon/Emerald_Shield (1).png",
+          "category": "Building",
+          "sortOrder": 1000
+        }
+      ],
       "capes": [
         {
           "id": 6,
@@ -1601,7 +1698,23 @@
       "suspended": false,
       "isPublicProfile": true,
       "discordConnectionStatus": "Not connected / not provided",
-      "defaultCapeSlug": ""
+      "defaultCapeSlug": "",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameGradient": false,
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradient": false,
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradient": false,
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078"
     },
     {
       "id": 450005,
@@ -2772,6 +2885,95 @@
       "nameplateGradient": false,
       "profileGradient": false,
       "defaultCapeSlug": "pan"
+    },
+    {
+      "id": 450019,
+      "gamertag": "Kidssati5361",
+      "profileImageUrl": "./manus-storage/player-profiles/avatarBody4 (1).png",
+      "statusTone": "online",
+      "statusLabel": "Losing my sight, step by step!",
+      "nameplateVariant": "",
+      "avatarDecoration": "",
+      "profileEffect": "",
+      "bio": "And I build stuff in code! To break things that is!\nIn Jupiter moon\nI love HTML and CSS and ignoring PHP!",
+      "skinImageUrl": "./manus-storage/player-skins/1c40f53475afccf8fb8d57edf8923233107ef401.png",
+      "skinModel": "normal",
+      "clockOffsetHours": 0,
+      "badges": [],
+      "capes": [
+        {
+          "id": 6,
+          "slug": "pan",
+          "name": "Pan Cape",
+          "imageUrl": "./manus-storage/player-capes/1789756896311-1000684070_f510f8b5.webp",
+          "sortOrder": 6,
+          "createdAt": "2026-09-15T13:10:09.000Z",
+          "updatedAt": "2026-09-18T18:41:36.000Z",
+          "updatedBy": "password-gated-owner",
+          "textureUrl": "manus-storage/capes-textures/pan.png"
+        },
+        {
+          "id": 8,
+          "slug": "common",
+          "name": "Common Cape",
+          "imageUrl": "./manus-storage/player-capes/1789756918894-1000684068_2b693ee3.webp",
+          "sortOrder": 8,
+          "createdAt": "2026-09-15T13:10:09.000Z",
+          "updatedAt": "2026-09-18T18:41:59.000Z",
+          "updatedBy": "password-gated-owner",
+          "textureUrl": "manus-storage/capes-textures/common.png"
+        },
+        {
+          "id": 11,
+          "slug": "menace",
+          "name": "Menace Cape",
+          "imageUrl": "./manus-storage/player-capes/1789756930359-1000684065_329abe8d.webp",
+          "sortOrder": 11,
+          "createdAt": "2026-09-15T13:10:09.000Z",
+          "updatedAt": "2026-09-18T18:42:10.000Z",
+          "updatedBy": "password-gated-owner",
+          "textureUrl": "manus-storage/capes-textures/menace.png"
+        },
+        {
+          "id": 90001,
+          "slug": "aurora-cape",
+          "name": "Aurora Cape",
+          "imageUrl": "./manus-storage/player-capes/1790660842273-1000686260_e9ba6787.png",
+          "sortOrder": 1000,
+          "createdAt": "2026-09-29T05:47:22.000Z",
+          "updatedAt": "2026-09-29T05:47:22.000Z",
+          "updatedBy": "password-gated-owner",
+          "textureUrl": "manus-storage/capes-textures/aurora-cape.png"
+        }
+      ],
+      "links": [
+        {
+          "id": 1795534093964,
+          "label": "My Website!",
+          "url": "https://kids-sati.neocities.org",
+          "sortOrder": 1000
+        }
+      ],
+      "suspended": false,
+      "isPublicProfile": true,
+      "discordConnectionStatus": "Not connected / not provided",
+      "contributorStyle": false,
+      "bannerUrl": "",
+      "nameFont": "Inter",
+      "nameColor": "#ffffff",
+      "nameColor2": "#9bdcff",
+      "nameplateColor": "#17364a",
+      "nameplateGradientDirection": "120deg",
+      "nameplateColor2": "#39285e",
+      "profileColor": "#102333",
+      "profileGradientDirection": "135deg",
+      "profileColor2": "#172b48",
+      "sectionColor": "#0d202e",
+      "borderColor": "#3d6078",
+      "nameGradient": false,
+      "nameplateGradient": false,
+      "profileGradient": false,
+      "defaultCapeSlug": ""
     }
   ],
   "team": [
@@ -2807,6 +3009,34 @@
       "borderColor": "#007828",
       "badges": [
         {
+          "id": 6,
+          "slug": "dedication",
+          "name": "Dedication",
+          "legend": "Awarded to players who are frequently active in the Realm.",
+          "imageUrl": "./manus-storage/badges-icon/Reckless.png",
+          "sortOrder": 60,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:55:21.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Progression",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
+          "id": 7,
+          "slug": "Master",
+          "name": "Master Builder",
+          "legend": "Awarded to players who have created a notable structure based on size",
+          "imageUrl": "./manus-storage/badges-icon/Radiance.png",
+          "sortOrder": 70,
+          "createdAt": "2026-08-23T11:38:21.000Z",
+          "updatedAt": "2026-09-18T18:57:08.000Z",
+          "updatedBy": "password-gated-owner",
+          "category": "Building",
+          "systemKey": null,
+          "featureKey": "none"
+        },
+        {
           "id": 30009,
           "slug": "content-town",
           "name": "Content Town!",
@@ -2827,7 +3057,10 @@
       ],
       "links": [],
       "nameplateGradientDirection": "180deg",
-      "profileGradientDirection": "180deg"
+      "profileGradientDirection": "180deg",
+      "bannerFocusX": 51.2,
+      "bannerFocusY": 50,
+      "bannerZoom": 1
     },
     {
       "id": 2,
@@ -2932,7 +3165,10 @@
           "sortOrder": 1020
         }
       ],
-      "links": []
+      "links": [],
+      "bannerFocusX": 50,
+      "bannerFocusY": 50,
+      "bannerZoom": 1
     },
     {
       "id": 3,
@@ -3025,7 +3261,10 @@
           "sortOrder": 990
         }
       ],
-      "links": []
+      "links": [],
+      "bannerFocusX": 50,
+      "bannerFocusY": 36.9,
+      "bannerZoom": 1
     },
     {
       "id": 5,
@@ -3694,6 +3933,12 @@
         }
       ],
       "mode": "playlist"
+    },
+    "banner": {
+      "heightPct": 100,
+      "fadeOn": true,
+      "fadeSides": "both",
+      "fadeSize": 20
     }
   },
   "highlights": []
